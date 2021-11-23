@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:label="CHUCKNORRIS JOKES"
-            android:name=".MainActivity"
+            android:name=".MainActivity" android:parentActivityName=".SecondActivity"
             android:exported="true">
 
         </activity>

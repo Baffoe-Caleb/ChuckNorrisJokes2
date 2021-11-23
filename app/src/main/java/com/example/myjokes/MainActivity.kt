@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
     val URL = "https://api.icndb.com/jokes/random"
     var okHttpClient: OkHttpClient = OkHttpClient()
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        val actionBar = supportActionBar
+        actionBar!!.title = "Second Activity"
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         nextBtn.setOnClickListener {
