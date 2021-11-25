@@ -44,86 +44,82 @@ class SecondActivity : AppCompatActivity() {
                 startActivity(activityIntent)
         }
             if (position == 1) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,CareerActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 2) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,CelebrityActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 3) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,DevActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 4) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,ExplicitActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
 
             if (position == 5) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,FashionActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 6) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,FoodActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 7) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,HistoryActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 8) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,MoneyActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 9) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,MovieActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 10) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,MusicActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 11) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,PoliticalActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 12) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,ReligionActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 13) {
-                val activityIntent = Intent(this,MainActivity::class.java )
-                activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
-                startActivity(activityIntent)
-            }
-            if (position == 13) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,ScienceActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 14) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,SportActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
             if (position == 15) {
-                val activityIntent = Intent(this,MainActivity::class.java )
+                val activityIntent = Intent(this,TravelActivity::class.java )
                 activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
                 startActivity(activityIntent)
             }
+
 
         }
 

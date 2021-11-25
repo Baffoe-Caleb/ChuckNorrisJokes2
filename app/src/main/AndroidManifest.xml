@@ -7,14 +7,73 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyJokes">
         <activity
-            android:label="CATEGORIES"
+            android:name=".TravelActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".SportActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".ScienceActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".ReligionActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".PoliticalActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".MusicActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".MovieActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".MoneyActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".FoodActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".FashionActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".ExplicitActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".DevActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".CelebrityActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".CareerActivity"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity" />
+        <activity
             android:name=".SecondActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="CATEGORIES">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,11 +81,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:exported="true"
             android:label="CHUCKNORRIS JOKES"
-            android:name=".MainActivity" android:parentActivityName=".SecondActivity"
-            android:exported="true">
-
-        </activity>
+            android:parentActivityName=".SecondActivity" />
     </application>
 
 </manifest>
